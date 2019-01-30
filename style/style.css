@@ -1,0 +1,15 @@
+.row {
+  margin: 10px;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(139, 166, 238);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#gif {
+  text-align: center;
+  margin-bottom: 20px;
+}

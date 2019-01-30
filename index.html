@@ -4,18 +4,29 @@
     <title>The AJAXson 5</title>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="request-gif.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
 </head>
 <body>
-    <h1>The AJAXson 5</h1>
+    <div class="container col-md-4 col-md-offset-4">
+        <div class="header row">
+        <h1>The AJAXson 5</h1>
+        </div>
 
-    <form id="form-gif-request" />
-        <label>What kind of Jackson 5 related gif do you want?</label>
-        <input name="tag" type="text"/>
-        <input type="submit" value="Get my Gif!" />
-    </form>
+        <div class="row well">
+        <form id="form-gif-request" >
+            <label>What kind of Jackson 5 related gif do you want?</label>
+            <input name="tag" type="text"/>
+        </div>
 
-    <img id="gif" src="" hidden="true"/>
-    <p id="feedback" hidden="true`"></p>
+            <input  class= "btn btn-primary"  type="submit" value="Get my Gif!" />
+            <p id="feedback" hidden="true`"></p>
+        </form>
+        <p id="loader"></p>
+        <img id="gif" src="" hidden="true"/>
+    </div>
 
 </body>
 </html>
