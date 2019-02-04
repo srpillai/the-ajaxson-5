@@ -46,11 +46,15 @@ The main Goals of this project:
         <h1>The AJAXson 5</h1>
         </div>
 
+        <!--  here the user can type a search query to request a new GIF -->
+
         <div class="row well">
         <form id="form-gif-request" >
             <label>What kind of Jackson 5 related gif do you want?</label>
             <input name="tag" type="text"/>
         </div>
+
+        <!-- add some validation to the page  -->
 
         <div class="row well">
             <div id="validation-test">
@@ -63,9 +67,14 @@ The main Goals of this project:
             <p id="feedback" hidden="true"></p>
         </div>
 
+         <!--  Request GIF   -->
+
             <input  class= "btn btn-primary"  type="submit" value="Get my Gif!" />
             <p id="feedback" hidden="true`"></p>
         </form>
+
+       <!--  Display GIF   -->
+
         <p id="loader"></p>
         <img id="gif" src="" hidden="true"/>
     </div>
